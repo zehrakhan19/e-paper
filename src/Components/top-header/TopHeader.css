@@ -1,0 +1,12 @@
+.appBar {
+  background-color: #fff !important;
+}
+.commonBtn {
+  padding: 10px;
+  color: #17479e;
+  font-weight: bold;
+}
+.commonBtn:hover {
+  cursor: pointer;
+  color: #36435c;
+}

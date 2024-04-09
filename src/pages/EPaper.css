@@ -1,0 +1,61 @@
+.appBar {
+  background-color: #fff !important;
+}
+.tab-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.bar {
+  display: none;
+}
+.wrapper {
+  padding: 10px;
+  min-height: 69vh;
+}
+.epaper-inner {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.epaper-cards-wrapper {
+  display: flex;
+  padding: 10px 0px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.epaper-cards {
+  border: 2px solid grey;
+  width: 150px;
+  text-align: center;
+}
+.epaper-image-wrapper {
+  padding: 5px;
+  cursor: pointer;
+  overflow: hidden;
+}
+.epaper-header {
+  background-color: #1976d2;
+  text-align: center;
+  color: #fff;
+  font-weight: 500;
+}
+.tab-box-epaper {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  align-items: center;
+}
+.epaper-bottom-tab-footer {
+  position: static;
+  background-color: #1976d2;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 1072px) {
+  .bar {
+    display: block;
+  }
+}
